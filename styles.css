@@ -25,7 +25,7 @@ body {
 
 /* Modal Background */
 .modal {
-    display: none;
+    display: none; /* Hidden by default */
     position: fixed;
     z-index: 1;
     left: 0;
@@ -40,8 +40,8 @@ body {
 /* Modal Content */
 .modal-content {
     background-color: white;
-    padding: 20px;
     width: 40%;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
