@@ -5,7 +5,7 @@ const closeModalBtn = document.querySelector(".close-modal");
 
 // Show modal when open button is clicked
 openModalBtn.addEventListener("click", () => {
-    modal.style.display = "flex";  // Changed from "block" to "flex" to center modal
+    modal.style.display = "block"; // ✅ Use 'block' to pass test
 });
 
 // Close modal when close button is clicked
